@@ -1,0 +1,51 @@
+.App {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  padding: 15px 20px;
+  font-size: 24px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.search:focus {
+  outline: none;
+  border-color: #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td {
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eee;
+}
